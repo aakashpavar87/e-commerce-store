@@ -1,0 +1,40 @@
+{
+  "name": "e-commerce-store",
+  "version": "1.0.0",
+  "description": "E-Commerce Store build for practise of web developement.",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "keywords": [
+    "e-commerce-store",
+    "admin-dashboard",
+    "full-stack",
+    "nodejs",
+    "react"
+  ],
+  "author": "Aakash Pavar",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "encodeurl": "^2.0.0",
+    "express": "^4.21.0",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "stripe": "^16.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0"
+  }
+}
