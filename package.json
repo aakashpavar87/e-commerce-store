@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon backend/server.js",
     "start": "node backend/server.js",
-    "build": "npm cache clean --force && npm install -g npm@latest && npm install && npm config set registry https://registry.npmjs.org/ && npm ci --prefix frontend --include=dev && npm run build --prefix frontend"
+    "build": "npm cache clean --force && npm install -g npm@latest && npm install && npm config set registry https://registry.npmjs.org/ && npm i --prefix frontend --include=dev && npm run build --prefix frontend"
   },
   "keywords": [
     "e-commerce-store",
